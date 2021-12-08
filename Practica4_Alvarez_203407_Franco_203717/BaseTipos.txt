@@ -1,0 +1,6 @@
+CREATE TABLE tipo (tipoId serial, tipo text, caracteristica text, mascotaId integer )
+
+
+insert into tipo(tipo, caracteristica, mascotaId)  values('bulldog', 'Perro blanco', 1);
+insert into tipo(tipo, caracteristica, mascotaId)  values('chihuahua', 'Manchita Blanca', 2);
+insert into tipo(tipo, caracteristica, mascotaId)  values('Doberman', 'oreja mocha',3);
