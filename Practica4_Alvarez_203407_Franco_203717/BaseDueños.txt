@@ -1,0 +1,10 @@
+CREATE TABLE dueno
+(
+    duenoId int AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    nombre varchar (40),
+    direccion varchar (40),
+    telefono int
+);
+
+insert into dueno (nombre,direccion,telefono) values ('jose','Barrio de jose',967123);
+insert into dueno (nombre,direccion,telefono) values ('luis','san luis potosi',922123);
