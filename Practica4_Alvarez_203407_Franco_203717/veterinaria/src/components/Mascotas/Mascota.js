@@ -11,7 +11,7 @@ const urlPut = 'http://localhost:28080/mascota/update'
 const urlDel = 'http://localhost:28080/mascota/delete'
 
 
-const Dueños = () => {
+const Mascota = () => {
     const [datos, setData] = useState([])
     const [edit,setEdit] = useState(null)
 
@@ -86,4 +86,4 @@ const Dueños = () => {
     )
 }
 
-export default Dueños;
+export default Mascota;
